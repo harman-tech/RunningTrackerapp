@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+html{
+    font-family: 'Permanent Marker', cursive;
+}
+.container-one{
+    background-color: black;
+    border-radius: 10px;
+    width:600px;
+    margin:auto;
+    margin-top: 20px;
+    height:100vh;
+    color:white;
+}
+.logo{
+   
+    display:flex;
+    flex-direction: column;
+}
+.logo>img{
+    width:300px;
+    height:300px;
+   
+    margin:auto;
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    
+    
+}
+form>button{
+    margin-top: 20px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    color:white;
+    margin:auto;
+    border:none;
+    cursor: pointer;
+}
+.logo>form{
+    margin:auto;
+    margin-top: 20px;
+}
+#weekly-miles{
+    padding:0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'Permanent Marker', cursive;
+}
+section{
+    margin:10px;
+}
+#section-2{
+    background-color: black;
+    border-radius: 10px;
+    width:600px;
+    margin-right: 10px;
+    text-align: center;
+    padding:20px;
+}
+#weekly-miles>li{
+    border:2px solid rgb(211, 26, 26);
+    padding:1rem 1.5rem;
+    border-radius: 10px;
+    
+   
+}
+.box-1 ,.box-2 ,.box-3{
+    background-color: grey;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+}
+.progresscirclewrapper{
+    display:flex;
+    justify-content: center;
+}
+#progresscircle{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#progresscenter{
+    width:220px;
+    height:220px;
+    border-radius: 50%;
+    background-color: black;
+}

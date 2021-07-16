@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunningTracker</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-one">
+         <div class="logo">
+             <img src="exercise.png" alt="image"/>
+             <form>
+                <label for="miles">Number of Miles Today:</label>
+                <input type="number" id="miles" placeholder="enter your daily miles">
+                <button type="submit" >Add</button>
+             </form>
+         </div>
+         <hr>
+         <section>
+             <p>Last Seven Days:</p>
+             <ul id="weekly-miles">
+                
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+                 
+             </ul>
+             <div class="box-1">
+                 <p>Total:</p>
+                 <span id="total">0</span>
+             </div>
+             <div class="box-2">
+                 <p>Average Distance:</p>
+                 <span id="average-dist">0</span>
+             </div>
+             <div class="box-3">
+                 <p>This Weeks High</p>
+                 <span id="high">0</span>
+             </div>
+         </section>
+         <hr>
+         <section id="section-2">
+             <h1>Weekly-Target:<span id="progreesTotal">0</span>/<span id="target">25</span></h1>
+            <div class="progresscirclewrapper">
+                  <div id="progresscircle">
+                      <div id="progresscenter"></div>
+                  </div>
+            </div>
+        </section>
+    </div>
+    <script src="base.js"></script>
+</body>
+</html>
